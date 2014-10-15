@@ -1,7 +1,7 @@
 OBJS=run_tests.o test_client_server.o test_fdes_stream.o
-# Some of the tests depend on my time library for string converts.
+# Some of the tests depend on the time library for string converts.
 # Set SANDBOX_HOME to where you clone that archive to
-SANDBOX_HOME=../
+SANDBOX_HOME=../sandbox
 EXE=run_cppunit
 CPP=c++
 
